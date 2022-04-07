@@ -1,0 +1,25 @@
+body{font-family: sans-serif;}
+#header{
+    display: flex;
+    margin:0;
+    background-color: #1F2937;
+}
+#logo{
+    margin-left:100px;
+    flex:1;
+    font-size: 24px;
+    margin:16px 8px 16px 100px;
+    color:#F9FAF8;
+    align-items: center;
+    font-weight: bold;
+}
+#header-link{
+    margin-right:100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+#header-link div{margin:16px 8px 16px 8px;}
+
